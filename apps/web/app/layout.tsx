@@ -1,4 +1,5 @@
-import "./globals.css";
+// import "./globals.css";
+import "@mantle/ui/dist/index.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
