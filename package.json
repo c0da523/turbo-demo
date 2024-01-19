@@ -6,7 +6,8 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "publish-packages:ui": "turbo run build --filter=ui-test lint && changeset version && changeset publish"
+    "publish-packages:ui": "turbo run build --filter=ui-test lint && changeset version && changeset publish",
+    "publish-packages:core": "turbo run build --filter=core lint && changeset version && changeset publish"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",

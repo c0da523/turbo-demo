@@ -1,7 +1,6 @@
 {
-  "name": "core",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@customtickets/core",
+  "version": "0.0.4",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,21 +9,28 @@
   },
   "dependencies": {
     "@tanstack/react-query": "5.0.5",
+    "ethers": "^6.10.0",
+    "viem": "2.4.0",
+    "wagmi": "2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "next": "13.5.3",
-    "viem": "2.0.0",
-    "wagmi": "2.0.1"
+    "next": "13.5.3"
   },
   "devDependencies": {
+    "tsup": "^8.0.1",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "@types/node": "^20.7.2",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.17",
     "bufferutil": "^4.0.7",
     "encoding": "^0.1.13",
     "lokijs": "^1.5.12",
     "pino-pretty": "^10.2.0",
+    "postcss": "^8.4.33",
     "supports-color": "^9.4.0",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
     "utf-8-validate": "^6.0.3"
   }

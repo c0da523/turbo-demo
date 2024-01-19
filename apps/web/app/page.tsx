@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import { Button, Switch } from "@mantle/ui";
+import { Button, Switch } from "@customtickets/ui";
 
 export default function Page(): JSX.Element {
   return (
