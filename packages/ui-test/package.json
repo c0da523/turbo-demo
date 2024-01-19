@@ -2,7 +2,7 @@
   "name": "@customtickets/ui",
   "version": "0.0.2",
   "license": "MIT",
-  "description": "A collection of react components.",
+  "description": "A collection of react components!.",
   "author": "Dennis Loh",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
