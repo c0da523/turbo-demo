@@ -1,4 +1,4 @@
-import { Switch } from "@mantle/ui";
+import { Switch } from "@repo/ui";
 import { useState } from "react";
 
 const SwitchComponent = () => {

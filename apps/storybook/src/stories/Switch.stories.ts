@@ -2,8 +2,8 @@ import type { Meta, StoryObj } from "@storybook/react";
 
 // import { Button } from "./Button";
 import SwitchComponent from "./SwitchComponent";
-import "@mantle/ui/dist/index.css";
-import { Switch } from "@mantle/ui";
+import "@repo/ui/dist/index.css";
+import { Switch } from "@repo/ui";
 import { action } from "@storybook/addon-actions";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export

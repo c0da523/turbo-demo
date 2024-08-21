@@ -17,9 +17,3 @@ export const config = createConfig({
     [mantle.id]: http(),
   },
 });
-
-declare module "wagmi" {
-  interface Register {
-    config: typeof config;
-  }
-}
