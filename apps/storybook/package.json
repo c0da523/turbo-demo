@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@mantle/ui": "workspace:*",
+    "@repo/ui": "workspace:*",
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "^7.6.10",
     "@storybook/addon-links": "^7.6.10",

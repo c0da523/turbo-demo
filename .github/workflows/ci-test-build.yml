@@ -29,5 +29,3 @@ jobs:
         #   I18NEXUS_API_KEY: ${{ secrets.I18NEXUS_API_KEY }}
       - name: Build
         run: pnpm run build
-      - name: Install Playwright
-        run: pnpx playwright@1.29.2 install chromium --with-deps

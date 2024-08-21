@@ -1,5 +1,5 @@
-import { http, createConfig } from "wagmi";
 import { fallback } from "@wagmi/core";
+import { createConfig, http } from "wagmi";
 import { mainnet, sepolia, mantle } from "wagmi/chains";
 import { coinbaseWallet, injected, walletConnect } from "wagmi/connectors";
 
@@ -17,9 +17,3 @@ export const config = createConfig({
     [mantle.id]: http(),
   },
 });
-
-declare module "wagmi" {
-  interface Register {
-    config: typeof config;
-  }
-}
